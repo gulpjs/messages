@@ -1,0 +1,41 @@
+{
+  "name": "",
+  "version": "",
+  "description": "",
+  "author": "Gulp Team <team@gulpjs.com> (https://gulpjs.com/)",
+  "contributors": [],
+  "repository": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=10.13.0"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "LICENSE"
+  ],
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "nyc mocha --async-only"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^7.0.0",
+    "eslint-config-gulp": "^5.0.0",
+    "eslint-plugin-node": "^11.1.0",
+    "expect": "^27.0.0",
+    "mocha": "^8.0.0",
+    "nyc": "^15.0.0"
+  },
+  "nyc": {
+    "reporter": [
+      "lcov",
+      "text-summary"
+    ]
+  },
+  "prettier": {
+    "singleQuote": true
+  },
+  "keywords": []
+}
