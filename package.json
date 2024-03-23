@@ -1,10 +1,12 @@
 {
-  "name": "",
-  "version": "",
-  "description": "",
+  "name": "@gulpjs/messages",
+  "version": "0.0.0",
+  "description": "Symbols for all messages within gulp-cli",
   "author": "Gulp Team <team@gulpjs.com> (https://gulpjs.com/)",
-  "contributors": [],
-  "repository": "",
+  "contributors": [
+    "Blaine Bublitz <blaine.bublitz@gmail.com>"
+  ],
+  "repository": "gulpjs/messages",
   "license": "MIT",
   "engines": {
     "node": ">=10.13.0"
@@ -36,6 +38,9 @@
   },
   "prettier": {
     "singleQuote": true
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "keywords": []
 }
