@@ -1,6 +1,6 @@
 {
   "name": "@gulpjs/messages",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Symbols for all messages within gulp-cli",
   "author": "Gulp Team <team@gulpjs.com> (https://gulpjs.com/)",
   "contributors": [
