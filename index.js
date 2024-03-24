@@ -23,6 +23,7 @@ module.exports = {
   NPM_INSTALL: Symbol.for('GULP_CLI_NPM_INSTALL'),
   YARN_INSTALL_GULP: Symbol.for('GULP_CLI_YARN_INSTALL_GULP'),
   NPM_INSTALL_GULP: Symbol.for('GULP_CLI_NPM_INSTALL_GULP'),
+  GULPLOG_DEPRECATED: Symbol.for('GULP_CLI_GULPLOG_DEPRECATED'),
 
   /**
    * Other details
