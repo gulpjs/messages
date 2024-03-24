@@ -4,7 +4,7 @@
   </a>
 </p>
 
-# PROJECT_NAME
+# `@gulpjs/messages`
 
 [![NPM version][npm-image]][npm-url] [![Downloads][downloads-image]][npm-url] [![Build Status][ci-image]][ci-url] [![Coveralls Status][coveralls-image]][coveralls-url]
 
@@ -35,9 +35,9 @@ This project exposes various symbols assigned to keys to use for matching gulp-c
 MIT
 
 <!-- prettier-ignore-start -->
-[downloads-image]: https://img.shields.io/npm/dm/%40gulpjs/messages.svg?style=flat-square
-[npm-url]: https://www.npmjs.com/package/%40gulpjs/messages
-[npm-image]: https://img.shields.io/npm/v/%40gulpjs/messages.svg?style=flat-square
+[downloads-image]: https://img.shields.io/npm/dm/@gulpjs/messages.svg?style=flat-square
+[npm-url]: https://www.npmjs.com/package/@gulpjs/messages
+[npm-image]: https://img.shields.io/npm/v/@gulpjs/messages.svg?style=flat-square
 
 [ci-url]: https://github.com/gulpjs/messages/actions?query=workflow:dev
 [ci-image]: https://img.shields.io/github/actions/workflow/status/gulpjs/messages/dev.yml?branch=master&style=flat-square
