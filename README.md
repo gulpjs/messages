@@ -15,14 +15,14 @@ Symbols for all messages within gulp-cli.
 In your `.gulp.js` file:
 
 ```js
-var messages = require('@gulpjs/messages');
+var messages = require("@gulpjs/messages");
 
 module.exports = {
   message: function (data) {
     if (data.tag === messages.DESCRIPTION) {
-      return 'Your description override message';
+      return "Your description override message";
     }
-  }
+  },
 };
 ```
 
