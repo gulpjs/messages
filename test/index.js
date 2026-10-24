@@ -1,16 +1,16 @@
 "use strict";
 
-var expect = require("expect");
+var assert = require("node:assert");
+var { describe, it } = require("node:test");
 
 var messages = require("../index.js");
 
 describe("messages", function () {
-  it("does not have a duplicate symbol", function (done) {
+  it("does not have a duplicate symbol", function () {
     var seen = new Set();
     Object.values(messages).forEach(function (symbol) {
-      expect(seen.has(symbol)).toEqual(false);
+      assert.deepStrictEqual(seen.has(symbol), false);
       seen.add(symbol);
     });
-    done();
   });
 });
